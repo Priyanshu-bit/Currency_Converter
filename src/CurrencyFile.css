@@ -1,0 +1,59 @@
+/* App.css */
+/* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(125deg, #08734d, #043b28); /* Gradient background with the new colors */
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  font-size: 24px; /* Larger font size for emphasis */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.group {
+  background: #335;
+  width: 330px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Vertically align elements */
+}
+
+input
+ {
+  background: none;
+
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  width: 90%;
+  margin-right: 5px; /* Add some space between input and select */
+}
+select{
+  background-color: rgb(48, 48, 86);
+  padding: 10px;
+  margin:5px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
